@@ -8,7 +8,7 @@ $installDir = "$env:LOCALAPPDATA\Programs\$appName"
 $exePath = Join-Path $installDir $exeName
 
 # Start Menu shortcut name
-$shortcutName = "Chrome IDLE.lnk"
+$shortcutName = "Chrome Idle.lnk"
 $startMenuPath = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs"
 $shortcutPath = Join-Path $startMenuPath $shortcutName
 
